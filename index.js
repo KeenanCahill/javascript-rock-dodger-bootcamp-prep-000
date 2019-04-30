@@ -135,3 +135,8 @@ function move(el) {
  
   window.requestAnimationFrame(step)
 }
+function sayHello() {
+  console.log('hello')
+}
+ 
+const myInterval = setInterval(sayHello, 1000)
